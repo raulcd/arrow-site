@@ -40,7 +40,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
-          path: arrow-site
+          path: .
       - name: Install Ruby
         uses: ruby/setup-ruby@v1
         with:
